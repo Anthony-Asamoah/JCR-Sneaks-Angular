@@ -22,19 +22,21 @@
         <h1 class="title">Carter</h1>
       </div>
       <div class="mid">
-        <div class="link"><a href="#">Home</a></div>
-        <div class="link"><a href="#">About</a></div>
-        <div class="link"><a href="#">Shop</a></div>
-        <div class="link"><a href="#">Contact</a></div>
+        <div class="link"><a routerLink="home">Home</a></div>
+        <div class="link"><a routerLink="about">About</a></div>
+        <div class="link"><a routerLink="shop">Shop</a></div>
+        <div class="link"><a routerLink="contact">Contact</a></div>
       </div>
       <div class="right">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-cart-arrow-down"></i>
-        <i class="fa-solid fa-user"></i>
+        <a class="raw-links" routerLink="cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        <a class="raw-links" routerLink="dashboard"><i class="fa-solid fa-user"></i></a>
       </div>
     </div>
   </div>
   <div class="main">
+
+    <router-outlet></router-outlet>
 
   </div>
   <div class="footer">

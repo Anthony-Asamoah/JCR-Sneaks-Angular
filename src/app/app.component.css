@@ -67,6 +67,11 @@
   padding:10px;
 }
 
+.raw-links {
+  color:black;
+  padding: 10px;
+}
+
 /********************************************/
 /* Main */
 .main {
