@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartComponent } from './cart/cart.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ListingComponent } from './listing/listing.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ShopComponent,
     ContactComponent,
     DashboardComponent,
-    CartComponent
+    CartComponent,
+    ListingComponent
   ],
   imports: [
     BrowserModule,

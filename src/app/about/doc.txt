@@ -1,0 +1,17 @@
+about us section         - hero section {
+  flex  -> Title (About Us), paragraph
+        -> stock image
+  green bg
+}
+
+our services section     - listings section {
+  title (Our Services)
+  paragraph
+  cards -> x4 icon, title
+}
+
+our brands section       - listings section {
+  title (Our Brands)
+  paragraph
+  icons -> monochrome yet colored on hover | slides to one direction
+}

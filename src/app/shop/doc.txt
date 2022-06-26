@@ -1,0 +1,21 @@
+
+listings section {
+  container
+  flex  ->  categories  col-4   {
+          title (categories)
+          dropdown -> category name, rounded dark-bg face-down arrow
+                   -> items in category
+        {
+
+        ->  listings    col-8   {
+          filters   ->  All, Men's, Women's
+          Card      ->  product img, Title, Size, Rating, Price
+        }
+}
+
+
+our brands section       - listings section {
+  title (Our Brands)
+  paragraph
+  icons -> monochrome yet colored on hover | slides to one direction
+}

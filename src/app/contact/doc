@@ -1,0 +1,15 @@
+
+hero section  {
+  title (Contact Us)
+  paragraph (Send us a request, compliment or complaint, or simply reach us via the form below )
+  whitesmoke bg
+}
+
+
+form          {
+  row -> name, email
+  subject
+  message (textarea)
+  submit button (Let's Talk)
+}
+

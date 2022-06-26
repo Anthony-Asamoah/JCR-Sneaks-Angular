@@ -1,0 +1,28 @@
+
+listing/product section   {
+  flex  -> product lightbox/stage {
+            main image
+            carousel -> images  -> on-image-click; main image = clicked-image
+                     -> left and right arrows at opposite ends of carousel
+        }
+        -> product details/information {
+             Title
+             Price
+             rating
+             brand: brand name
+             description: p -> all caps on first child
+             Available Color: color
+             Specification: specs
+             row  -> size: button link to standard sizes page
+                  -> quantity: minus and plus buttons with number inbetween
+             row  -> button (buy)           col-3
+                  -> button (add to cart)   col-3
+        }
+}
+
+
+related products section    - listings section    {
+  title (Related Products)
+  card  -> product image, title, size, rating(centered), price(centered)
+        -> on hover; [like button, view button, add to cart button] shows
+}
