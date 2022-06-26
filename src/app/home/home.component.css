@@ -1,0 +1,54 @@
+ ul, li, p, a, label, input, div {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px !important;
+   font-weight: 300 !important;
+ }
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+#hero {
+  height: 500px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+#categoryOfTheMonth, #featuredProducts, #recommendations {
+  padding: 60px 0 70px 0;
+}
+#categoryOfTheMonth .item, #featuredProducts .item, #recommendations .item {
+  margin: 10px 0;
+}
+
+#categoryOfTheMonth img {
+  max-width: 100%;
+  border: 1px solid lightgray;
+}
+#categoryOfTheMonth .stuff p {
+  font-weight: bold !important;
+  padding-top:20px;
+}
+
+#featuredProducts {
+  background-color: whitesmoke;
+}
+
+#featuredProducts img {
+  width: 100%;
+}
+#featuredProducts .fa-star {
+  color: gold;
+}
+#featuredProducts h4 {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+

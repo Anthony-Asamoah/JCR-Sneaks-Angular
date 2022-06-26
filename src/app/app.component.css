@@ -27,7 +27,7 @@
 /* Navbar */
 .navbar {
   width: 100vw;
-  height: 90px;
+  height: 85px;
   overflow: hidden;
   position: relative;
   background-color: white;
@@ -62,24 +62,20 @@
   color: #59AB6E;
 }
 
-
-.navbar .right > i{
-  padding:10px;
-}
-
 .raw-links {
   color:black;
   padding: 10px;
+  transition: 0.3s ease;
+}
+.raw-links:hover {
+  color: #59AB6E;
 }
 
 /********************************************/
 /* Main */
 .main {
   overflow-x: hidden;
-  position: relative;
   left:0;
-  top:130px;
-  height: 500px;
 }
 
 

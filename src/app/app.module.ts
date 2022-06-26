@@ -9,6 +9,7 @@ import { ShopComponent } from './shop/shop.component';
 import { ContactComponent } from './contact/contact.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartComponent } from './cart/cart.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CartComponent } from './cart/cart.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
