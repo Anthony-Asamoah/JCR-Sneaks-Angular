@@ -1,0 +1,29 @@
+
+  Reponsivity {
+    TopNav
+    Navbar
+    Footer
+  }
+  carousel              - hero section {
+    left-center aligned text -> H1, H3, P
+    right-center aligned image
+    left & right arrows
+    image reference dots/indicator
+  }
+  Category of the month - listings section {
+    Title
+    Paragraph
+    item x3 -> rounded image, title, Call to Action
+  }
+  Featured Products     - listings section {
+    Title
+    Paragraph
+    item x3 -> card -> image, rating, price, title, description, link to reviews
+    **item img & title is clickable -> references a product***
+  }
+  Recommendations       - listings section {
+    Title
+    Paragraph
+    item x20 -> gallery -> image, rating, price, title
+    **item is clickable -> references a product***
+  }
